@@ -1,0 +1,106 @@
+{
+  "personalInfo": {
+    "name": "Shreya Chaubey",
+    "title": "Software Development Engineer / Full-Stack Developer",
+    "location": "Prayagraj, India",
+    "email": "shreyachaubey345@gmail.com",
+    "phone": "7525986395",
+    "linkedin": "https://www.linkedin.com/in/shreya-chaubey345/",
+    "github": "https://github.com/ShreyaChaubey5",
+    "leetcode": "https://leetcode.com/u/Shreya345"
+  },
+  "education": {
+    "university": "University of Allahabad",
+    "degree": "Bachelor's in Technology - Computer Science",
+    "duration": "Sept 2023 - May 2027",
+    "metrics": {
+      "class10": "94.5%",
+      "class12": "91.2%"
+    }
+  },
+  "skills": {
+    "languages": ["Java", "SQL", "JavaScript", "C"],
+    "backend": ["Java Spring Boot", "Spring Data JPA", "Express.js (Node.js)", "REST APIs", "JWT Authentication"],
+    "frontend": ["React.js", "HTML", "CSS", "Tailwind CSS", "Next.js 16"],
+    "databases": ["MySQL", "MongoDB", "Firebase"],
+    "tools": ["Git", "GitHub", "Postman", "Cloudinary"]
+  },
+  "experience": [
+    {
+      "role": "FullStack Intern",
+      "company": "AdShout.ai",
+      "duration": "May 2026 - Aug 2026",
+      "description": "Engineering AI-driven full-stack applications by architecting scalable UI components using Next.js 16 and building production-ready Nest.JS backends."
+    },
+    {
+      "role": "Social Media Lead",
+      "company": "GDGonCAMPUS (JKIAPT)",
+      "duration": "Present",
+      "description": "Managed event communication, content, and outreach for tech events on campus."
+    }
+  ],
+  "projects": [
+    {
+      "title": "SmartSearch",
+      "subtitle": "Cross-Platform Document Intelligence",
+      "github": "https://github.com/ShreyaChaubey5/smartSearch",
+      "image": "/smart.jpeg",
+      "technologies": ["Tauri", "Rust", "Spring Boot", "React.js", "Tailwind CSS", "Vite", "MongoDB"],
+      "summary": "SmartSearch is a high-performance desktop application built to bridge the gap between local document storage and instant data retrieval. By leveraging Tauri for a lightweight native experience, React for a fluid UI, and Spring Boot for a robust processing engine, SmartSearch turns unstructured PDFs into a searchable knowledge base.",
+      "architectureDetails": [
+        "Desktop Layer (Tauri): Uses a Rust-based core to host the webview, ensuring minimal memory footprint and native OS integration.",
+        "Frontend Layer (React + Vite): A modern, reactive interface that manages document states and provides a real-time search experience.",
+        "Engine Layer (Spring Boot): A Java-based backend handling MultipartFile upload ingestion, automated raw file-to-index pipelines, and specialized search queries via REST controllers."
+      ]
+    },
+    {
+      "title": "Library Management System",
+      "subtitle": "Enterprise-Grade Operations & NoSQL Modeling",
+      "github": "https://github.com/ShreyaChaubey5/LibraryManagementSystem",
+      "image": "/LMS.png",
+      "technologies": ["Java 21", "Spring Boot 3.x", "MongoDB Atlas", "Maven", "RESTful API"],
+      "summary": "An enterprise-grade, full-stack library management solution (ELMS) built with a focus on high-performance backend architecture, scalable NoSQL data modeling, and a reactive user interface. This system facilitates complex operations including membership tier management, real-time inventory synchronization, and transactional auditing.",
+      "architectureDetails": [
+        "Decoupled Service Logic: Built with a strictly partitioned layered design patterns isolating Controller mapping, Business service logic, and Repository tiers.",
+        "Data Persistence Layer: Utilizes a high-speed document-oriented approach in MongoDB Atlas under a unified catalog system to eliminate performance bottlenecks.",
+        "Collection Schemas: Organizes info (Book Catalog tracking with reactive stock updates), members (storing multi-tier Student/Teacher profiles with unique UUIDs), and transactions (comprehensive borrow/return audit tracking)."
+      ]
+    },
+    {
+      "title": "Wanderlust",
+      "subtitle": "Full-Stack Travel Rental Engine",
+      "github": "https://github.com/ShreyaChaubey5/Wanderlust",
+      "image": "/wanderlust.png",
+      "technologies": ["MERN Stack", "Node.js", "Express.js", "MongoDB (Mongoose)", "Passport.js", "Cloudinary", "Mapbox API", "Bootstrap", "EJS"],
+      "summary": "A full-stack travel/vacation booking app built with a modular backend layout handling dynamic property indexing, session safety systems, and automated asset CDNs.",
+      "architectureDetails": [
+        "Auth & Middleware: Enforces secure user authentication setups and persistent tracking via Passport.js, Express-Session, and Connect-Mongo structures.",
+        "Cloud Storage Pipeline: Streams file uploads directly using Multer into Cloudinary global content delivery networks for fluid listing management.",
+        "Geospatial Layouts: Incorporates Mapbox API maps for geospatial mapping alongside strict parameters checked via Joi and Cookie-Parser schema utility tools."
+      ]
+    },
+    {
+      "title": "AInalyze",
+      "subtitle": "Smart Bill Analyzer for Households",
+      "github": "https://github.com/ShreyaChaubey5/AInalyze",
+      "image": "/billing.png",
+      "technologies": ["React", "TailwindCSS", "Context API", "Node.js", "Express", "Tesseract.js", "Firebase", "Firebase Auth"],
+      "summary": "AInalyze is an AI-powered web application that simplifies household expense tracking by automatically extracting key information from bill images. The app leverages OCR and AI to digitize and analyze your receipts, providing insights into your spending patterns.",
+      "architectureDetails": [
+        "AI/OCR Text Extraction: Hooks Tesseract.js libraries into a clean backend workspace to automate image-to-text decoding from raw user-uploaded household bills.",
+        "Infrastructure & Storage: Implements Firebase cloud infrastructure for scalable media asset buckets alongside native Firebase Authentication for user spaces.",
+        "Stateful Dashboard: Manages application-wide states responsively using the React Context API to map telemetry for real-time tracking modules."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "FFE Scholar",
+      "detail": "Awarded national-level merit and need-based scholarship."
+    },
+    {
+      "title": "Google Cloud Computing Foundations",
+      "detail": "Completed foundations and Generative AI certification tracks via Google GenAI Study Jam."
+    }
+  ]
+}
