@@ -86,7 +86,7 @@ export default function Home({ data, setActivePage }) {
               <div className="w-full h-full rounded-full overflow-hidden border border-purple-950/80 bg-[#0d071f] flex items-center justify-center">
                 
                 <img 
-                  src="public/shreya.jpg" 
+                  src="profile.jpg" 
                   alt="Shreya Chaubey Profile" 
                   className="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal group-hover:scale-105 transition-all duration-500"
                 />
