@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// 1. API Route for portfolio data
+
 app.get('/api/portfolio', async (req, res) => {
   try {
     const dataPath = path.join(__dirname, 'data.json');
@@ -25,10 +25,14 @@ app.get('/api/portfolio', async (req, res) => {
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+app.use((req, res, next) => {
+  if (req.method === 'GET' && !req.path.startsWith('/api')) {
+    return res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+  }
+  next();
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+});
 });
